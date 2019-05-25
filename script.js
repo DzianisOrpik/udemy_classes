@@ -19,26 +19,37 @@
 // var days = age * 365;
 // alert(age + " yers is roughly " + days + " days " );
 
-var age = Number(prompt("Please enter your age? "));
+// var age = Number(prompt("Please enter your age? "));
+//
+// //if age is negotive
+// if (age < 0) {
+//   console.log("Come back once you're out of the womb");
+// }
+//
+// //if age is 21
+// if (age === 21) {
+// console.log("Happy 21st Birthday");
+// }
+//
+// // If your age odd
+// //(not everly divisible by two)
+// if (age % 2 !==0) {
+//   console.log("Your age is odd!");
+// }
+//
+// //If age is a perfect square
+// // Квадратный корено из числа, когда число делится без остатка НАПРИМЕР: 3 * 3 = 9 или 6561 / 81 = 81
+// if (age % Math.sqrt(age) === 0) {
+// console.log("Your age is a perfect square");
+// }
 
-//if age is negotive
-if (age < 0) {
-  console.log("Come back once you're out of the womb");
-}
+// create secretNumber
+var sectretNumber = 4;
 
-//if age is 21
-if (age === 21) {
-console.log("Happy 21st Birthday");
-}
+//ask user dor guess
+var guess = prompt("Guess a number");
 
-// If your age odd
-//(not everly divisible by two)
-if (age % 2 !==0) {
-  console.log("Your age is odd!");
-}
 
-//If age is a perfect square
-// Квадратный корено из числа, когда число делится без остатка НАПРИМЕР: 3 * 3 = 9 или 6561 / 81 = 81
-if (age % Math.sqrt(age) === 0) {
-console.log("Your age is a perfect square");
+if(guess === sectretNumber) {
+  alert("You got it right");
 }
