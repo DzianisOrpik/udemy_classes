@@ -44,12 +44,17 @@
 // }
 
 // create secretNumber
-var sectretNumber = 4;
+//var sectretNumber = 4;
 
 //ask user dor guess
-var guess = prompt("Guess a number");
+//var guess = prompt("Guess a number");
+//
+//
+//if(guess === sectretNumber) {
+//  alert("You got it right");
+//}
 
 
-if(guess === sectretNumber) {
-  alert("You got it right");
-}
+
+
+
